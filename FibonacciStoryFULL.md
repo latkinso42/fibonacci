@@ -29,15 +29,21 @@ The macros in py/runtime.c and py/argcheck.c helped such that the resulting virt
 
 Finally one can create the device as so:
 
-import fibonacci as fib
-f = fib.Fibonacci(3,7)
-f.generate(10)
-487
+   >>>import fibonacci as fib
+
+   >>>f = fib.Fibonacci(3,7)
+
+   >>>f.generate(10)
+
+   >>>487
 
 One can also get or set the seeds.
-f.a = 11
-f.a
-11
+
+   >>>f.a = 11
+
+   >>>f.a
+
+   >>>11
 
 Very basic, elementary module to get you started. I learned an incredible amount!
 Now I'm ready to tackle a more difficult extension with some special hardware functionality.
